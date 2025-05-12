@@ -2528,4 +2528,54 @@ article.single-post p {
   text-decoration: none;
 }
 
+.card-deck .card {
+  min-width: 180px;
+  max-width: 220px;
+  margin: 10px;
+  flex: 0 0 calc(25% - 20px);
+  padding: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-deck .category-block {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-deck .category-block table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-deck .category-block img {
+  width: 60%;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.card-deck .category-block h5 {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.card-deck .category-block p {
+  margin: 5px 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #666;
+}
+
+.card-deck {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
