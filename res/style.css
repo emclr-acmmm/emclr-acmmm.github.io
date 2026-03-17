@@ -2578,4 +2578,10 @@ article.single-post p {
   margin: 0 auto;
 }
 
+.speaker-row .card {
+  min-width: 220px;
+  max-width: 220px;
+  flex: 0 0 220px;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
